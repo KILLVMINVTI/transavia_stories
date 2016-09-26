@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+	<title>Transavia Verhalen Overzicht</title>
+	<link href="style/style.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<div class="topbar">
+			<div class="left">
+				<a href="index.html"><img src="image/topbarleft.jpg" alt="logo"/></a>
+			</div>
+			<div class="right">
+				<a href="login.html"><img src="image/topbarright.jpg" alt="logo"/></a>
+			</div>
+			<!--deze div is alleen zichtbaar als het scherm onder 500px breed is-->			
+ 			<div class="right2">
+			<a href="login.html"><img src="image/topbarrightsmall.jpg" alt="logo"/></a>
+			</div>
+		</div>
+ 	</header>
+	<main class="bump">
+		<div class="loginbox">
+		<h1>Maak een account aan</h1>
+		</div>
+			<article class="loginbox">
+				<form>
+					<fieldset>
+						<legend>Persoonlijke Informatie</legend>
+						<p><label for=voornaam>Voornaam</label> <input id=voornaam name=voornaam type=text placeholder="Voorbeeld: Bart" required/></p>
+						<p><label for=tussenvoegsel>Tussenvoegsel</label> <input id=tussenvoegsel name=tussenvoegsel type=text placeholder="Voorbeeld: van der"/></p>
+						<p><label for=achternaam>Achternaam</label> <input id=achternaam name=achternaam type=text placeholder="Voorbeeld: Berg" required/></p>
+						<p><label for=dob>Geboortedatum</label> <input id=dob name=dob type=date required/></p>
+					</fieldset>
+					<fieldset>
+						<legend>Wooninformatie</legend>
+						<p><label for=telefoon>Telefoon</label> <input id=telefoon name=telefoon placeholder="xxxx xxxxxx" type=tel required/></p>
+						<p><label for=email>Email</label> <input id=email name=email placeholder=naam@domein.com type=email required/></p>
+						<p><label for=adres>Adres</label> <textarea id=adres name=adres required></textarea></p>
+						<p><label for=postcode>Postcode</label> <input id=postcode name=postcode type=text placeholder=1234FG required/></p>
+					</fieldset>
+					<p><input type="submit" value="Account Aanmaken" /></p>
+				</form>
+			</article>
+	</main>
+	<footer>
+		<p>Copyright 2016 transavia</p>
+	</footer>
+</body>
+</html>
