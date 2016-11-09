@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+	<title>Inloggen</title>
+	<link href="style/style.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<div class="topbar">
+			<div class="left">
+				<a href="index.html"><img src="image/topbarleft.jpg" alt="logo"/></a>
+			</div>
+			<div class="right">
+				<a href="login.html"><img src="image/topbarright.jpg" alt="logo"/></a>
+			</div>
+			<!--deze div is alleen zichtbaar als het scherm onder 500px breed is-->			
+ 			<div class="right2">
+			<a href="login.html"><img src="image/topbarrightsmall.jpg" alt="logo"/></a>
+			</div>
+		</div>
+ 	</header>
+	<main class="bump">
+		<section class="containerlogin">
+			<article class="loginbox">
+				<div class="logintop">
+						<h1>Inloggen</h1>
+				</div>
+				<form action="loading.html">
+					<fieldset>
+						<label for=username>Gebruikersnaam</label><p class="search2"><input id=username name=username type=text /></p>
+						<label for=wachtwoord>Wachtwoord</label><p class="search2"><input id=wachtwoord name=wachtwoord type=password required/></p>
+					</fieldset>
+					<a href="aanmelden.html">
+						<div class="buttonwide">
+							<span>Nog geen account?</span>
+						</div>
+					</a>
+					<input type="submit" class="buttonwide" value="Inloggen"></input>
+				</form>
+			</article>
+		</section>
+	</main>
+	<footer class="footer">
+		<p>Copyright 2016 transavia</p>
+		<img src="image/logo.svg" alt="logo"/>
+	</footer>
+</body>
+</html>

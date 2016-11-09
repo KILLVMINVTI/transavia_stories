@@ -1,0 +1,17 @@
+.purple {
+	background: white !important;
+}
+.purple span {
+	color: black !important;
+}
+
+.commenthead p {
+	color: #2800a0;
+	font-weight: bold;
+}
+
+
+.filter:hover {
+	display: block;
+	height: 13em !important;
+}

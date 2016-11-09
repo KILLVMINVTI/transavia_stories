@@ -1,0 +1,67 @@
+.green {
+	background: white !important;
+}
+.green span {
+	color: black !important;
+}
+
+
+.commenthead img {
+	margin: 1.3em;
+}
+
+.commentbox {
+	background: linear-gradient(180deg, #FFFFFF 92%, transparent 18%);
+}
+
+
+.readmoreemo {
+	padding: 0.7em;
+	border-top: 1px solid #d8d8d8;
+	padding-left: 1em;
+	background: url('../image/emo_bottom.png') no-repeat;
+	background-size: 100%;
+}
+
+.readmoreemo span {
+	color: white;
+	margin-left: 1em;
+
+}
+
+.readmorestrict {
+	padding: 1.5em;
+	border-top: 1px solid #d8d8d8;
+	padding-left: 1em;
+	background: url('../image/strict_bottom.png') no-repeat; 
+	background-size: 100%;
+
+}
+
+.readmorestrict span {
+	color: white;
+	margin-left: 1.5em;
+
+}
+
+.readmoreafgeleid {
+	padding: 0.6em;
+	border-top: 1px solid #d8d8d8;
+	padding-left: 1em;
+	background: url('../image/afgeleid_bottom.png') no-repeat;
+	background-size: 100%;
+}
+
+.readmoreafgeleid span {
+	color: black;
+	margin: 0 0 0 12em;
+
+}
+
+p {
+	margin: 1.2em
+}
+
+.containercontent span {
+	color: transparent !important;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+	<title>Aanmelden</title>
+	<link href="style/style.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<div class="topbar">
+			<div class="left">
+				<a href="index.html"><img src="image/topbarleft.jpg" alt="logo"/></a>
+			</div>
+			<div class="right">
+				<a href="login.html"><img src="image/topbarright.jpg" alt="logo"/></a>
+			</div>
+			<!--deze div is alleen zichtbaar als het scherm onder 500px breed is-->			
+ 			<div class="right2">
+			<a href="login.html"><img src="image/topbarrightsmall.jpg" alt="logo"/></a>
+			</div>
+		</div>
+ 	</header>
+	<main class="bump">
+		<section class="containerlogin">
+			<article class="loginbox">
+				<div class="logintop">
+						<h1>Maak een account aan</h1>
+				</div>
+				<form action="loading.html">
+					<fieldset>
+						<label for=voornaam>Voornaam</label><p class="search2"> <input id=voornaam name=voornaam type=text placeholder="Bart" required/></p>
+						<label for=tussenvoegsel>Tussenvoegsel</label><p class="search2"> <input id=tussenvoegsel name=tussenvoegsel type=text /></p>
+						<label for=achternaam>Achternaam</label><p class="search2"> <input id=achternaam name=achternaam type=text placeholder=" Berg" /></p>
+					</fieldset>
+					<fieldset>
+						<span class="msg error">Geen email adres!</span>
+						<span class="msg success">Geschikt email adres.</span>
+						<label for=email>Email</label><p class="search2"> <input id=email name=email placeholder=naam@domein.com required="required" type=email/></p>
+						<label for=username>Gebruikersnaam</label><p class="search2"> <input id=username name=username type=text /></p>
+					</fieldset>
+					<fieldset>
+						<label for=wachtwoord>Wachtwoord</label> <p class="search2"><input id=txtNewPassword name=wachtwoord type=password required/></p>
+						<span class="registrationFormAlert" id="divCheckPasswordMatch"></span>
+						<label for=wachtwoordrepeat>Herhaal Wachtwoord</label> <p class="search2"><input id=txtConfirmPassword name=wachtwoord type=password required></p>
+					</fieldset>
+					<a href="login.html"><div class="buttonwide"><span>Al een account?</span></div></a>
+					<input type="submit" class="buttonwide" value="Account Aanmaken" ></input>
+				</form>
+			</article>
+		</section>
+	</main>
+	<footer class="footer">
+		<p>Copyright 2016 transavia</p>
+		<img src="image/logo.svg" alt="logo"/>
+	</footer>
+	<script src="js/script.js"></script>
+</body>
+</html>

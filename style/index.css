@@ -1,0 +1,10 @@
+.red {
+	background: white !important;
+}
+.red span {
+	color: black !important;
+}
+.commenthead p {
+	color: #ff3268;
+	font-weight: bold;
+}

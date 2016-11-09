@@ -1,0 +1,64 @@
+html,
+body {
+	background: url('../image/bg.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+}
+.contentwide 
+{
+	overflow: hidden;
+	width: 100%;
+	position: absolute;
+	top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
+.contentmedium
+{
+	display: none;
+}
+.contentmobile
+{
+	display: none;
+}
+
+@media screen and (max-width: 1080px)
+{
+	.contentmedium
+		{
+		overflow: hidden;
+		width: 100%;
+		position: absolute;
+		top: 5%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		}
+	.contentwide
+		{
+			display:none;
+		}
+}
+
+@media screen and (max-width: 700px)
+{
+	.contentmobile
+		{
+		overflow: hidden;
+		width: 100%;
+		position: absolute;
+		top: 5%;
+		left: 0;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		}
+	.contentmedium
+		{
+			display:none;
+		}
+}
